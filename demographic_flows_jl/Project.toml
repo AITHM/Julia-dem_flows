@@ -1,0 +1,7 @@
+name = "demographic_flows_jl"
+uuid = "5ffc649a-f22a-4610-9bb0-491956c53372"
+authors = ["jc942017 "]
+version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

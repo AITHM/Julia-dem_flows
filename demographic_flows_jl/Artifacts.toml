@@ -1,0 +1,7 @@
+[[dem_flows]]
+os = "windows"
+arch = "x86_64"
+git-tree-sha1 = "531fc4cbece409b3eb3f79d4bc55071ab6ee3414"
+    [[dem_flows.download]]
+    url = "https://github.com/Alec-Henderson/demflows/blob/main/Dem_flows_c.tar.gz?raw=true"
+    sha256 = "78048c9cb8975c76d9c3efe17c8c51af2622e8c027fd754e31dc1f0731cce7f7"

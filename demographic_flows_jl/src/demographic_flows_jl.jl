@@ -2,7 +2,7 @@ module demographic_flows_jl
 export demography_rates_proportional, return_epi
 using Pkg.Artifacts
 rootpath = artifact"dem_flows"
-dem_flows_location = joinpath(rootpath, "Dem_flows_c")
+dem_flows_location = joinpath(rootpath, "CrossPlatformDemFlows")
 
 function demography_rates_proportional(time_points, states_at_time_points, cversion = true)
     int(x) = floor(Int, x)

@@ -1,0 +1,15 @@
+[[dem_flows]]
+os = "windows"
+arch = "x86_64"
+git-tree-sha1 = "249727a38de2cb9357c5d93f244b0ff89fd0df54"
+    [[dem_flows.download]]
+    url = "https://github.com/Alec-Henderson/demflows/blob/main/CrossPlatformDemFlows_windows.tar.gz?raw=true"
+    sha256 = "b9945a89cc62e038c56aea197d883d6343ae8a57ca740609c918b079ba71018d"
+	
+[[dem_flows]]
+os = "linux"
+arch = "x86_64"
+git-tree-sha1 = "1daa1b7c7976d2226fee338b717dfb23e3221f4f"
+    [[dem_flows.download]]
+    url = "https://github.com/Alec-Henderson/demflows/blob/main/CrossPlatformDemFlows_linux.tar.gz?raw=true"
+    sha256 = "f9b3cd1647abaf1e6e942f304fbaeb0786da9888566e3725f47b94547e97903b"

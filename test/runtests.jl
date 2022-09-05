@@ -49,3 +49,7 @@ end
     ages_and_vacc_at_100 = y_state[:, 3]
     @test all(isapprox.(ages_and_vacc_at_100, state3, atol=0.0001))
 end
+@testset "fail" begin
+	@test 2 == 3
+end
+
